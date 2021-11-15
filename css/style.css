@@ -1,0 +1,538 @@
+body{
+	margin: 0px;
+	font-family: 'Open Sans', sans-serif;
+	background-color: #F5F5F5!important;
+}
+.header{
+	float: left;
+	width: 100%;
+	height: 110px;
+	background-color: #F5F5F5;
+
+}
+.headings{
+	color: #682C95;
+	font-size: 26px;
+	font-weight: 700;
+	line-height: 36px;
+}
+.subheadings{
+	color: #A971D4;
+	font-size: 22px;
+	font-weight: 600;
+	line-height: 30px;
+}
+.paragraphs{
+	color: #383838;
+	font-size: 16px;
+	font-weight: 400;
+	line-height: 30px;
+}
+.logo{
+	float: left;
+	width: 100%;
+}
+.logo img{
+	float: left;
+	width: 100%;
+	height: auto;
+	padding-top: 15px;
+}
+.top-menu{
+	float: right;
+	width: 100%;
+	padding-top: 15px;
+	padding-bottom: 10px;
+}
+.top-menu-content{
+	float: right;
+	margin-left: 38px;
+	text-decoration: none;
+}
+.top-menu-content a{
+	color: #D927A8;
+	text-decoration: none;
+}
+.top-menu-content a:hover{
+	color: #ff56d2;
+	text-decoration: none;
+}
+.menu{
+	float: right;
+	width: 100%;
+}
+.menu ul{
+	float: right;
+}
+.menu ul a{
+	float: left;
+	color: black;
+	text-decoration: none;
+	margin: 11px 15px;
+	font-weight: 400;
+}
+.menu ul a:hover{
+	color: #C992DE;
+}
+.active{
+	color: #682C95!important;
+	font-weight: 500!important;
+}
+.book-now-div{
+	float: right;
+	width: 141px;
+	height: 46px;
+	background-color: #682C95;
+	color: white;
+	padding: 10px 34px;
+}
+.book-now-div p{
+	float: left;
+	font-weight: 600;
+
+}
+/************HomePage************/
+.banner{
+	float: left;
+	width: 100%;
+	height: 515px;
+	background-image: url('../images/Banner.png');
+	background-size: cover;
+}
+.banner-content{
+	float: left;
+	width: 100%;
+}
+.banner-content h1{
+	color: white;
+	font-size: 70px;
+	font-weight: 700;
+	margin-top: 80px;
+	line-height: 80px;
+}
+.banner-content h2{
+	color: white;
+	font-size: 20px;
+	font-weight: 400;
+	margin-top: 14px;
+	line-height: 29px;
+}
+.banner-button-div{
+	float: left;
+	background-color: transparent;
+	border: solid #682C95 2px;
+	height: 65px;
+	width: 146px;
+	margin-top: 36px;
+}
+.banner-button-div a{
+	float: left;
+	text-decoration: none;
+	color: white;
+	margin-left: 28px;
+	margin-top: 15px;
+	font-size: 20px;
+	font-weight: 100;
+}
+.banner-button-div a:hover{
+	text-decoration: none;
+	color: #C992DE;
+}
+.about-us{
+	float: left;
+	width: 100%;
+	padding-top: 78px;
+	padding-bottom: 78px;
+}
+.about-us h2{
+	text-align: center;
+}
+.about-us h3{
+	margin-top: 90px;
+}
+.about-us p{
+	margin-top: 25px;
+	width: 75%;
+}
+.viewmore-button-div{
+	float: left;
+	background-color: transparent;
+	border: solid #682C95 2px;
+	height: 60px;
+	width: 152px;
+	margin-top: 30px;
+}
+.viewmore-button-div a{
+	float: left;
+	text-decoration: none;
+	color: #D927A8;
+	margin-left: 35px;
+	margin-top: 15px;
+	font-size: 18px;
+	font-weight: 100;
+}
+.viewmore-button-div a:hover{
+	text-decoration: none;
+	color: #ff56d2;
+}
+.About-us-imgdiv{
+	float: left;
+	width: 100%;
+}
+.About-us-imgdiv img{
+	height: 416px;
+	width: 100%;
+	margin-top: 52px;
+	object-fit: cover;
+}
+.Rooms{
+	float: left;
+	width: 100%;
+	padding-top: 78px;
+	padding-bottom: 78px;
+	background-color: #f1ecf3;
+}
+.Rooms h2{
+	text-align: center;
+}
+.Rooms h3{
+	float: left;
+	margin-top: 19px;
+}
+.Rooms img{
+	float: left;
+	width: 100%;
+	height: 292px;
+	object-fit: cover;
+	margin-top: 56px;
+}
+.price{
+	float: right;
+	margin-top: 23px;
+	color: #D927A8;
+}
+.rooms-p{
+	float: left;
+	width: 100%;
+	margin-top: 21px;
+}
+.features{
+	float: left;
+	width: 100%;
+	padding-top: 78px;
+	padding-bottom: 78px;
+}
+.features p{
+	float: left;
+	width: 75%;
+	margin-top: 24px;
+}
+.features img{
+	width: 60px;
+	height: auto;
+	margin-left: 54px;
+}
+.features-titles{
+	font-size: 20px;
+	font-weight: 100;
+	color: #D927A8;
+	text-align: center;
+	margin-top: 5px;
+	margin-left: 7px;
+}
+.space1{
+	float: left;
+	width: 100%;
+	height: 34px;
+}
+.space2{
+	float: left;
+	width: 100%;
+	height: 56px;
+}
+.footer{
+	float: left;
+	width: 100%;
+	padding-top: 78px;
+	padding-bottom: 78px;
+	background-color: #682C95;
+}
+.footer img{
+	float: left;
+	width: 92px;
+	height: auto;
+}
+.footer-about{
+	float: left;
+	width: 98%;
+	font-weight: 100!important;
+	color: white!important;
+	font-size: 17px!important;
+}
+.social-icons{
+	float: left;
+	width: 22px!important;
+	height: auto;
+	margin-right: 13px;
+	margin-top: 20px;
+}
+.footer h2{
+	color: white!important;
+}
+.footer p{
+	margin-top: 25px;
+	font-size: 17px;
+	font-weight: 100;
+	color: white;
+}
+.footer-nav{
+	float: left;
+	width: 95%;
+	margin-top: 16px;
+}
+.footer-nav a{
+	float: left;
+	width: 100%;
+	color: white;
+	font-size: 17px;
+	line-height: 30px;
+	font-weight: 100;
+	margin-top: 3px;
+	text-decoration: none;
+}
+.footer-nav a:hover{
+	text-decoration: none;
+	color: #C992DE;
+}
+.footer h3{
+	float: left;
+	width: 100%;
+	font-size: 27px;
+	font-weight: 400;
+	margin-top: 3px;
+	color: white;
+}
+.footer h4{
+	float: left;
+	font-size: 18px;
+	font-weight: 100;
+	color: white;
+}
+.footer h3:hover{
+	color: #C992DE;
+}
+.footer h4:hover{
+	color: #C992DE;
+}
+.copyright{
+	float: left;
+	width: 100%;
+	background-color: #682C95;
+	border-top: #f5f5f5 1.5px solid;
+}
+.copyright p{
+	font-size: 15px;
+	color: white;
+	font-weight: 100;
+	padding-top: 20px;
+	padding-bottom: 20px;
+	margin-bottom: 0px;
+}
+@media (max-width: 992px){
+	.menu{
+		display: none;
+	}
+	.logo img{
+		height: 90px;
+		width: auto;
+	}
+	.top-menu{
+		display: none;
+	}
+	.headings{
+		text-align: left!important;
+	}
+	.about-us h2 br{
+		display: none;
+	}
+	.about-us h3{
+		margin-top: 30px;
+	}
+	.features img{
+		margin-left: 0px;
+	}
+	.features-titles{
+		text-align: left;
+		margin-top: 5px;
+		margin-left: 0px;
+	}
+	.social-icons{
+		margin-top: 15px;
+		margin-bottom: 20px;
+	}
+	.footer-nav{
+		margin-bottom: 20px;
+	}
+	.book-now-div{
+	float: none;
+	text-align: center;
+	margin-top: 10px;
+	margin-bottom: 50px;
+	margin-left: auto;
+	margin-right: auto;
+	display: block;
+} 
+
+}
+@media (min-width: 992px){
+	.cli-btn{
+		display: none;
+	}
+}
+@media (min-width: 992px) and (max-width: 1200px){
+
+}
+.overlay {
+	height: 100%;
+	width: 0;
+	position: fixed;
+	z-index: 9999;
+	top: 0;
+	left: 0;
+	background-color: #330655;
+	background-color: #330655ce;
+	overflow-x: hidden;
+	transition: 0.5s;
+	padding-bottom: 100px;
+}
+
+.overlay-content {
+	position: relative;
+	top: 25%;
+	width: 100%;
+	text-align: center;
+	margin-top: 30px;
+}
+  
+.overlay a {
+	padding: 8px;
+	text-decoration: none;
+	font-size: 36px;
+	color: white;
+	display: block;
+	transition: 0.3s;
+}
+.overlay-active{
+	color: #C992DE!important;
+}
+.overlay a:hover, .overlay a:focus {
+	color: #C992DE;
+}
+  
+.overlay .closebtn {
+	position: absolute;
+	top: 20px;
+	right: 45px;
+	font-size: 60px;
+}
+.cli-btn{
+  float: right;
+  padding-top: 35px;
+}
+/************About Us************/
+.sub-banner{
+	float: left;
+	width: 100%;
+	height: 313px;
+	background-image: url('../images/Banner.png');
+	background-size: cover;
+}
+.sub-banner h1{
+	font-size: 50px;
+	font-weight: 700;
+	color: white;
+	text-align: center;
+	margin-top: 125px;
+}
+.aboutus-content{
+	float: left;
+	width: 100%;
+	padding-top: 78px;
+	padding-bottom: 78px;
+}
+
+.aboutus-content p{
+	width: 90%;
+	margin-top: 40px;
+}
+.aboutus-content-imgdiv{
+	float: left;
+	width: 100%;
+}
+.aboutus-content-imgdiv img{
+	height: 400px;
+	width: 100%;
+	object-fit: cover;
+}
+.Our-Team{
+	float: left;
+	width: 100%;
+	padding-top: 78px;
+	padding-bottom: 78px;
+	background-color: #f1ecf3;
+}
+.Our-Team img{
+	float: left;
+	width: 100%;
+	height: 400px;
+	margin-top: 40px;
+	border-radius: 20px;
+	object-fit: cover;
+}
+.Our-Team h3{
+	float: left;
+	margin-top: 20px;
+	margin-left: 8px;
+	margin-bottom: 0px;
+}
+.Our-Team p{
+	float: left;
+	margin-left: 8px;
+	color: #8d8c8c;
+	font-weight: 100;
+}
+.Contact-content{
+	float: left;
+	width: 100%;
+	padding-top: 78px;
+	padding-bottom: 78px;
+}
+.Contact-content img{
+	margin-left: auto;
+	margin-right: auto;
+	display: block;
+	width: 50px;
+	height: auto;
+}
+.Contact-content p{
+	text-align: center;
+	margin-top: 5px;
+	color: #474747;
+}
+.Contact-content p:hover{
+	color: #C992DE;
+	text-decoration: none;
+}
+.Contact-content a{
+	text-align: center;
+	margin-top: 5px;
+	color: #474747;
+}
+.Contact-content a:hover{
+	color: #C992DE;
+	text-decoration: none;
+}
+.map{
+	float: left;
+	width: 100%;
+}
